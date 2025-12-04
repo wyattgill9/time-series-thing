@@ -5,6 +5,7 @@ fn test(x: &mut u32) {
 
 fn main() {
     println!("Hello, world!");
+
     let mut x: u32 = 5;
 
     test(&mut x);
