@@ -9,7 +9,9 @@
     strictDeps = true;
 
     buildInputs =
-      []
+      [
+        pkgs.capnproto
+      ]
       ++ pkgs.lib.optionals pkgs.stdenv.isDarwin [
         pkgs.libiconv
       ];

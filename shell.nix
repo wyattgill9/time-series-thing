@@ -1,5 +1,8 @@
-{pkgs, toolchain, ...}:
-
+{
+  pkgs,
+  toolchain,
+  ...
+}:
 pkgs.mkShell {
   buildInputs = [
     toolchain
